@@ -1,0 +1,33 @@
+[project]
+name = "ds-thesis-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "contextily>=1.6.2",
+    "db-dtypes>=1.4.3",
+    "esda>=2.7.0",
+    "fiona>=1.10.1",
+    "folium>=0.20.0",
+    "geopandas>=1.1.1",
+    "google-cloud-bigquery>=3.38.0",
+    "ipykernel>=6.29.5",
+    "mapclassify>=2.8.1",
+    "matplotlib>=3.10.3",
+    "momepy>=0.9.1",
+    "nbformat>=5.10.4",
+    "numpy>=2.2.6",
+    "openpyxl>=3.1.5",
+    "osmnx>=2.0.5",
+    "pandas>=2.3.1",
+    "plotly>=6.5.0",
+    "rasterio>=1.4.3",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "DS_thesis_2025",
+]
